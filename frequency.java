@@ -24,7 +24,7 @@ public class frequency {
         System.out.println("The number" + i + "is present" + count + "times");
       }
 
-      
+      sc.close();
 
     }
 }

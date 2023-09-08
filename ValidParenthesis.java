@@ -7,7 +7,10 @@ public class ValidParenthesis {
         String s = sc.next();
         boolean isValid = isValidParentheses(s);
         System.out.println(isValid);
+        sc.close();
+        
     }
+    
 
     public static boolean isValidParentheses(String s) {
         Stack<Character> stack = new Stack<>();
@@ -25,7 +28,10 @@ public class ValidParenthesis {
                 return false; // If an unexpected closing bracket is encountered
             }
         }
-
+        
+        
         return stack.isEmpty(); // If stack is empty, all brackets were matched
+        
     }
+
 }

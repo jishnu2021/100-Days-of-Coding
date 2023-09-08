@@ -12,6 +12,6 @@ public class printname {
             System.out.println(s);
             a--;
         }
-
+        sc.close();
     }
 }

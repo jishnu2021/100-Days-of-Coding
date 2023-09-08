@@ -14,5 +14,7 @@ public class cdnpathern {
             }
             System.out.println();
         }
+
+        sc.close();
     }
 }

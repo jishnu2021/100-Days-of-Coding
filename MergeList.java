@@ -16,5 +16,6 @@ public class MergeList {
         sc.append(num).append(" ");
     }
     System.out.println(sc.toString());
+    ob.close();
  }   
 }

@@ -20,9 +20,9 @@ public class ArrayLists {
         // int element=list.get(0);
         // System.out.println(element);
 
-        // // Between addition
-        // list.add(1,5);
-        // System.out.println(list);
+        // Between addition
+        list.add(1,7);
+        System.out.println(list);
 
         // // set element
         // list.set(1, 9);

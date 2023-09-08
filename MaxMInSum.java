@@ -25,5 +25,6 @@ public class MaxMInSum {
 
         int sum =max+min;
             System.out.println(sum);
+            sc.close();
     }
 }

@@ -53,6 +53,7 @@ public class MergeLeetcode {
             }
 
         System.out.println("----Output List-----");
+        sc.close();
 
     //    for(int num:c){
     //     System.out.print(num);

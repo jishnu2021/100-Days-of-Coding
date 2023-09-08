@@ -31,7 +31,7 @@ public class array2 {
                 System.out.println("The number is presented in"+a[i][j]+"index");
                 break;
             }
-           
+           sc.close();;
     }
  }  
   System.out.println("Not in the list"); 
