@@ -6,7 +6,7 @@ class LinkPalin{
 
         Node(String data){
             this.data=data;
-            this.next=next;
+            this.next=null;
         }
     }
     Node head;
