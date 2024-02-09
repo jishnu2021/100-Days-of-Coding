@@ -1,5 +1,5 @@
 import java.util.HashSet;
-import java.util.Iterator;
+// import java.util.Iterator;
 
 public class HashSetimplementation {
     public static void main(String[] args) {
@@ -10,15 +10,17 @@ public class HashSetimplementation {
         set.add(2);
         set.add(3);
         set.add(3);
+        set.add(4);
+        set.add(4);
 
-        System.out.println(set);
+        System.out.println("The ans is "+set);
 
-        Iterator it= set.iterator();
+        // Iterator it= set.iterator();
 
-        System.out.println("--Iteration---");
-        while(it.hasNext()){
-            System.out.println(it.next());
-        }
+        // System.out.println("--Iteration---");
+        // while(it.hasNext()){
+        //     System.out.println(it.next());
+        // }
 
 
         System.out.println("\n---Search----");
@@ -27,7 +29,7 @@ public class HashSetimplementation {
         }
 
         if(!set.contains(5)){
-            System.out.println("is not present in the Hashset");
+            System.out.println("5 is not present in the Hashset");
         }else{
             System.out.println("is present");
         }
@@ -36,5 +38,7 @@ public class HashSetimplementation {
         set.remove(3);
 
         System.out.println(set);
+
+        
     }
 }

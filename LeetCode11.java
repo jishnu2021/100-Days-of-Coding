@@ -1,5 +1,5 @@
 class Leetcode11 {
-    public int maxArea(int[] height) {+
+    public int maxArea(int[] height) {
         int maxArea = 0;
         int left = 0;
         int right = height.length - 1;

@@ -1,7 +1,7 @@
-
 import java.util.LinkedList;
 
 class LL{
+
     public static void main(String[] args) {
         LinkedList<String> list = new LinkedList<String>();
 
@@ -20,8 +20,8 @@ class LL{
         }
         System.out.println("null");
 
-        list.removeFirst();
-        list.removeLast();
+        // list.removeFirst();
+        // list.removeLast();
         System.out.println(list);
     }
 }

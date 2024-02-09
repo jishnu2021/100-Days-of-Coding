@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.util.ArrayList;
 class Result {
 
     public static void plusMinus(List<Integer> arr) {
@@ -23,7 +23,7 @@ class Result {
     }
 
     public static void main(String[] args){
-        List<Integer> arr = Arrays.asList(1, 1, 0, -1, -1);
+        List<Integer> arr =new ArrayList<>();
         plusMinus(arr);
     }
 }

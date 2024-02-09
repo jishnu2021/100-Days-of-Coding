@@ -15,7 +15,7 @@ public class HashMapImpl {
         map.put("Samya", 80);
         map.put("Rezo", 75);
 
-        System.out.println(map);
+        System.out.println("The ans is "+map);
 
         // search
         if(map.containsKey("Rezo")){
@@ -33,7 +33,7 @@ public class HashMapImpl {
         System.out.println(map.get("Srijeet"));
         System.out.println(map.get("Datta"));
 
-
+        System.out.println("The ans will be ----");
         for(Map.Entry<String,Integer> val : map.entrySet()){
             System.out.println(val.getKey());
             System.out.println(val.getValue());
