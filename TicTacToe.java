@@ -38,6 +38,7 @@ public class TicTacToe {
             }
         }
         printBoard(board);
+        sc.close();
     }
 
     private static boolean haveWon(char[][] board, char player) {
@@ -73,6 +74,7 @@ public class TicTacToe {
                 System.out.print(board[row][col]+" | ");
             }
             System.out.println();
+            
         }
     }
 }

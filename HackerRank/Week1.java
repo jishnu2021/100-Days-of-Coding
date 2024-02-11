@@ -1,4 +1,4 @@
-import java.util.*;
+
 import java.util.ArrayList;
 class Result {
 
@@ -23,7 +23,16 @@ class Result {
     }
 
     public static void main(String[] args){
-        List<Integer> arr =new ArrayList<>();
-        plusMinus(arr);
+       ArrayList<Integer> input1 = new ArrayList<>();
+       input1.add(-4);
+       input1.add(3);
+       input1.add(-9);
+       input1.add(0);
+       input1.add(-2);
+       input1.add(5);
+       System.out.println("Input:");
+       System.out.println(input1);
+       System.out.print("Output: ");
+       
     }
 }
