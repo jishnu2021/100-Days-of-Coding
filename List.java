@@ -1,7 +1,7 @@
 
 public class List<T> {
 
-    public void add(int i) {
+    public void add(List<Integer> levelNodes) {
         
         throw new UnsupportedOperationException("Unimplemented method 'add'");
     }
