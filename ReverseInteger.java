@@ -27,7 +27,6 @@ public class ReverseInteger {
         System.out.println(solution.reverse(123));   
         System.out.println(solution.reverse(-123));  
         System.out.println(solution.reverse(120));  
-        System.out.println(solution.reverse(0));    
-        System.out.println(solution.reverse(1534236469)); 
+      
     }
 }
