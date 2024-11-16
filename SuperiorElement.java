@@ -4,7 +4,7 @@
 public class SuperiorElement {
 
     public static void main(String[] args) {
-        int[] arr =  {8,10,6,2,9,7};
+        int[] arr =  {8,10,6,2,9,7,5,1};
         int n = arr.length;
         int result = findSuperiorelments(arr,n);
         System.out.println("The total superior elements is " + result);
