@@ -4,7 +4,7 @@ public class MetaNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-
+        sc.close();
         int ans = findmetanumbers(n);
         System.out.println(ans);
     }

@@ -1,7 +1,7 @@
 /**
  * FindCount
  */
-public class FindCount {
+public class FindCountVal {
 
     public static void main(String[] args) {
         int[] arr = {5,8,7,5,8,9};

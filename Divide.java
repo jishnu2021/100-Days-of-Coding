@@ -1,4 +1,4 @@
-public class Solution {
+public class Divide {
     public int divide(int dividend, int divisor) {
         // Handle edge cases
         if (divisor == 0) return Integer.MAX_VALUE;
@@ -25,6 +25,4 @@ public class Solution {
         // Apply sign
         return isNegative ? -result : result;
     }
-} Divide {
-    
-}
+} 

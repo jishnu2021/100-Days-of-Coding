@@ -9,5 +9,6 @@ public class Cakepiece {
         int ans = sum + 1;
 
          System.out.println(ans%1000000007);
+         sc.close();
     }
 }

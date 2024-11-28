@@ -5,6 +5,7 @@ public class DigitNumber {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println(finddigitNumber(n));
+        sc.close();
     }
 
     public static int finddigitNumber(int n) {

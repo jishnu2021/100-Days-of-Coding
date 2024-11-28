@@ -6,11 +6,12 @@ public class ChangeString {
         String s = sc.next();
 
         System.out.println(lowerorUpper(s));
+        sc.close();
     }
 
     public static String lowerorUpper(String s){
         char[] arr = s.toCharArray();
-        int l = s.length();
+        // int l = s.length();
         int cap = 0;
         int low = 0;
 
