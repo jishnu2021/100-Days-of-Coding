@@ -1,10 +1,13 @@
-import java.util.Scanner;
+public class MissingVal {
+    public static void main(String[] args) {
+        int[] arr = {5,4,6,1,3};
 
-class firstMissingPositive {
-    public static int firstMissing(int[] nums) {
-            int n = nums.length;
+        System.err.println(findval(arr));
+    }
+    public static int findval(int[] nums){
+        int n = nums.length;
             
-            // Place each number in its right place
+            // // Place each number in its right place
             for (int i = 0; i < n; i++) {
                 while (nums[i] > 0 && nums[i] <= n && nums[nums[i] - 1] != nums[i]) {
                     // Swap nums[i] with nums[nums[i] - 1]
@@ -23,15 +26,5 @@ class firstMissingPositive {
             
             // If all numbers are in place, the first missing positive is n+1
             return n + 1;
-        }
-        public static void main(String[] args) {
-            Scanner sc = new Scanner(System.in);
-            int [] arr = new int[5];
-            for(int i=0;i<arr.length;i++){
-                arr[i] = sc.nextInt();
-            }
-    
-            System.err.println(firstMissing(arr));
-        sc.close();
     }
 }
